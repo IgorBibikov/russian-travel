@@ -1,0 +1,13 @@
+.website {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: end;
+  max-width: 484px;
+}
+@media screen and (max-width: 767px) {
+  .website {
+    max-width: 288px;
+    margin: 0 16px 0px;
+  }
+}

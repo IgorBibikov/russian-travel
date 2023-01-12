@@ -1,0 +1,19 @@
+.footer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  max-width: 1184px;
+  margin: 0 48px 0;
+  padding-bottom: 24px;
+}
+@media screen and (max-width: 1023px) {
+  .footer {
+    margin: 0 24px 0;
+  }
+}
+@media screen and (max-width: 680px) {
+  .footer {
+    display: block;
+    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
+    margin: 0 auto 0 16px;
+  }
+}
