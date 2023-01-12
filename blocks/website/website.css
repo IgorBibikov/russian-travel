@@ -1,4 +1,6 @@
 .website {
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -8,6 +10,7 @@
 @media screen and (max-width: 767px) {
   .website {
     max-width: 288px;
-    margin: 0 16px 0px;
+    margin-left: 16px;
+    margin-right: 16px;
   }
 }

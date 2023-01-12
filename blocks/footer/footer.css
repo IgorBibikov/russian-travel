@@ -7,13 +7,15 @@
 }
 @media screen and (max-width: 1023px) {
   .footer {
-    margin: 0 24px 0;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 @media screen and (max-width: 680px) {
   .footer {
     display: block;
     grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
-    margin: 0 auto 0 16px;
+    margin-right: auto;
+    margin-left: 16px;
   }
 }
