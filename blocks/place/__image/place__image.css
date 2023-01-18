@@ -3,7 +3,7 @@
   object-fit: contain;
   grid-row: 2/4;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .place__image {
     grid-row: 3/4;
   }

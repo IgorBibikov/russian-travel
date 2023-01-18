@@ -1,6 +1,6 @@
 .footer {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+  display: flex;
+  justify-content: space-between;
   max-width: 1184px;
   margin: 0 48px 0;
   padding-bottom: 24px;
@@ -14,7 +14,6 @@
 @media screen and (max-width: 680px) {
   .footer {
     display: block;
-    grid-template-columns: repeat(auto-fit, minmax(158px, 1fr));
     margin-right: auto;
     margin-left: 16px;
   }

@@ -1,3 +1,6 @@
+.intro {
+}
+
 @media screen and (min-width: 320px) {
   .intro {
     margin: 0 16px 64px;
@@ -14,14 +17,12 @@
 @media screen and (min-width: 1024px) {
   .intro {
     margin-left: 48px;
-    margin-right: 286px;
+
     margin-bottom: 92px;
   }
 }
 @media screen and (min-width: 1280px) {
   .intro {
     margin-left: 148px;
-    margin-right: 442px;
-    margin-bottom: 92px;
   }
 }

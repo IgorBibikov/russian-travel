@@ -1,13 +1,14 @@
 @media screen and (min-width: 320px) {
   .places {
-    margin: 0 0 66px;
+    margin: 0;
+    margin-bottom: 66px;
   }
 }
 @media screen and (min-width: 768px) {
   .places {
     margin-left: 24px;
     margin-right: 24px;
-    margin-bottom: 75px;
+    margin-bottom: 90px;
   }
 }
 @media screen and (min-width: 1024px) {
