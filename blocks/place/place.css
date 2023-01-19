@@ -18,7 +18,9 @@
     grid-template-columns: 1fr 1.036fr;
     column-gap: 28px;
   }
-
+  .place:last-of-type {
+    margin-top: 75px;
+  }
   .place:first-of-type {
     margin-top: 0;
   }
