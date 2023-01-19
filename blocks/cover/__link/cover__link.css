@@ -8,6 +8,7 @@
   gap: 32px;
   background-image: url("../../../images/cover-trains.jpg");
   background-size: cover;
+  background-position: center;
   margin: 0 48px 92px;
   max-width: 1184px;
   min-height: 740px;
@@ -18,7 +19,6 @@
   .cover__link {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 92px;
     min-height: calc(200px + (740 - 200) * ((100vw - 320px) / (1184 - 320)));
     max-width: calc(320px + (1184 - 320) * ((100vw - 320px) / (1184 - 320)));
   }
