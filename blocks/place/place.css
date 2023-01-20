@@ -3,31 +3,24 @@
   margin: 0;
   display: grid;
 }
+.place:last-of-type {
+  margin-bottom: 0;
+}
 @media screen and (min-width: 320px) {
   .place {
     margin-bottom: 48px;
   }
-  .place:last-of-type {
-    margin-bottom: 0px;
-  }
 }
 @media screen and (min-width: 768px) {
   .place {
-    margin-bottom: 0;
-    margin-top: 70px;
+    margin-bottom: 70px;
     grid-template-columns: 1fr 1.036fr;
     column-gap: 28px;
-  }
-  .place:last-of-type {
-    margin-top: 75px;
-  }
-  .place:first-of-type {
-    margin-top: 0;
   }
 }
 @media screen and (min-width: 1024px) {
   .place {
-    margin-top: 80px;
+    margin-bottom: 80px;
     grid-template-columns: 1fr 1.0353fr;
     column-gap: 32px;
   }
